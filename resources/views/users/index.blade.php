@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -71,7 +71,7 @@
                                         <p><a class="link-opacity-50" href="#">Floreal</a></p>
                                         <p><a class="link-opacity-50" href="#">Comtemporâneo</a></p>
                                     </div>
-                                    <img src="/public/imagens/aparelhoJantar.jpg" alt="Imagem 4" class="image-hover">
+                                    <img src="/imagens/aparelhoJantar.jpg" alt="Imagem 4" class="image-hover">
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                                         <p><a class="link-opacity-50" href="#">Fundos</a></p>
                                         <p><a class="link-opacity-50" href="#">Avulsos</a></p>
                                     </div>
-                                    <img src="/public/imagens/pratos.jpg" alt="Imagem 4" class="image-hover">
+                                    <img src="/imagens/pratos.jpg" alt="Imagem 4" class="image-hover">
                                 </div>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                                         <p><a class="link-opacity-50" href="#">Bowls e Tigelas</a></p>
                                         <p><a class="link-opacity-50" href="#">Travessas</a></p>
                                     </div>
-                                    <img src="/public/imagens/bowls.jpg" alt="Imagem 4" class="image-hover">
+                                    <img src="/imagens/bowls.jpg" alt="Imagem 4" class="image-hover">
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                                         <p><a class="link-opacity-50" href="#">Canecas</a></p>
                                         <p><a class="link-opacity-50" href="#">Conjuntos</a></p>
                                     </div>
-                                    <img src="/public/imagens/copos.jpg" alt="Imagem 4" class="image-hover">
+                                    <img src="/imagens/copos.jpg" alt="Imagem 4" class="image-hover">
 
                                 </div>
                             </div>
@@ -152,13 +152,13 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="/public/imagens/aparelhoJantar.jpg" class="d-block w-100" alt="...">
+                                        <img src="/imagens/aparelhoJantar.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="/public/imagens/travessaOrganica.jpg" class="d-block w-100" alt="...">
+                                        <img src="/imagens/travessaOrganica.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="/public/imagens//conjuntoCha.jpg" class="d-block w-100" alt="...">
+                                        <img src="/imagens//conjuntoCha.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -186,13 +186,13 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                     
-                                        <img src="/public/imagens/xicaras.jpg" class="d-block w-100" alt="...">
+                                        <img src="/imagens/xicaras.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="/public/imagens/bule.jpg" class="d-block w-100" alt="...">
+                                        <img src="/imagens/bule.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="/public/imagens/mantegueira.png" class="d-block w-100" alt="...">
+                                        <img src="/imagens/mantegueira.png" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwo" data-bs-slide="prev">
