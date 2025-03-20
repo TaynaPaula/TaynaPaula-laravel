@@ -11,4 +11,8 @@ Route::get('/create-user', [UserController::class, 'create'])->name('user.create
 #para criar o metodo UserController vc segura o ctrl+click do mouse
 
 Route::get('/sobre', [UserController::class, 'sobre'])->name('user.sobre'); 
-Route::get('/store', [UserController::class, 'store'])->name('user-store');
+#Os dados do formulario estão sendo enviados para user-store pelo action="user-store"
+Route::post('/store', [UserController::class, 'store'])->name('user-store'); 
+
+
+ 

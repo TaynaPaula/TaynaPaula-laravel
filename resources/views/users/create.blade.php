@@ -130,20 +130,37 @@
     </header>
 
 
+
+
+
     <div class="container">
         <main>
+
+
+
             <div class="py-5 text-center">
                 <h2>Criar minha conta</h2>
                 <p class="lead">Preencha os campos abaixo:</p>
             </div>
 
+
+
             <div class="row g-5">
 
                 <div class="col-md-7 col-lg-8">
                     <h4 class="mb-3">Meu Endereço</h4>
-                    <form class="needs-validation" novalidate method="post" action="/cadastrar">
-                        @csfr
-                        @method('@POST')
+                    @if($errors->any()){
+                        <p style="color: #f00000;">
+                        @foreach($errors->all() as $error)
+                        {{$error}}
+                        @endforeach
+                    </p>
+                    }
+                    @endif
+
+                    <form action="{{ route('user-store') }}" method="POST">
+                        @csrf
+                        @method('POST')
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <label for="firstName" class="form-label">Primeiro nome</label>
@@ -188,7 +205,7 @@
                                 </div>
                             </div>
 
-                            
+
 
                             <div class="col-12">
                                 <label for="address" class="form-label">Endereço</label>
@@ -301,6 +318,7 @@
 
         <!-- Aqui ele carrega ofoot separado -->
         @include('layouts.footer')
+
     </div>
     <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

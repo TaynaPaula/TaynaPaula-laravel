@@ -214,8 +214,9 @@
         
 
     </main>
-    <!-- Footer -->
-    @include('layouts.footer')  
+    <!-- Aqui ele carrega ofoot separado -->
+    @include('layouts.footer')
+ 
 </body>
 
 </html>
